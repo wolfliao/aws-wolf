@@ -19,7 +19,7 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: worksop-level-s3-wolfliao
   key: workshop-${TRAVIS_BUILD_NUMBER}.zip
-  application: worksop-level-s3-wolfliao
+  application: worksop-level-s3-wolfliao-ccd1
   deployment_group: master
   region: us-east-1
   on:
