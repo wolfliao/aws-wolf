@@ -13,7 +13,7 @@ deploy:
   region: us-east-2
   on:
     branch: master
-  bucket: worksop-level-s3-wolfliao
+  bucket: worksop-level-s3-wolfliao1
 - provider: codedeploy
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_ACCESS_KEY
