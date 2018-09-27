@@ -10,7 +10,7 @@ deploy:
     secure: $AWS_SECRET_ACCESS_KEY
   local_dir: dpl_cd_upload
   skip_cleanup: true
-  region: us-east-1
+  region: us-east-2
   on:
     branch: master
   bucket: worksop-level-s3-wolfliao
